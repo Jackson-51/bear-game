@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dinosaur game</title>
+    <link rel="stylesheet" href="dino.css">
+    <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="game_container">
+        <div class="message">Game Over! <i class="fa-solid fa-face-grin-tongue-squint"></i></div>
+        <lord-icon
+            src="https://cdn.lordicon.com/wayukhza.json"
+            trigger="click"
+            target="#jump-btn"
+            style="width:100px;height:100px"
+            class="lordicon"
+            speed="5">
+        </lord-icon>
+        <div class="back_slider"></div>
+        <div class="cactus_container">
+
+        </div>
+    </div>
+    <div class="btn_container">
+        <button id="jump-btn">Jump</button>
+        <button id="restartbtn">restart game</button>
+    </div>
+    <div class="val">
+        <div class="val1"></div>
+        <div class="val2"></div>
+        <div class="val3"></div>
+    </div>
+    <script src="dino.js"></script>
+</body>
+</html>
