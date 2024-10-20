@@ -54,6 +54,9 @@ body{
     bottom:11px;
     left: 50px;
     transition:all 1s;
+    @media (max-width:700px) {
+        left: 20px;
+    }
 }
 
 .btn_container{
